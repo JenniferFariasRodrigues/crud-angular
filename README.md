@@ -25,3 +25,7 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Material
+* git material: https://github.com/loiane/curso-angular/blob/master/crud-angular-spring/crud-angular/src/styles.scss
+* Angular material:https://material.angular.io/components/categories
