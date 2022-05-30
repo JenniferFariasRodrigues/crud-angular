@@ -6,6 +6,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
+## create a shared app
+Run 'ng g m shared/app-material'
+Into this package put the imports
+
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
@@ -29,3 +33,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Material
 * git material: https://github.com/loiane/curso-angular/blob/master/crud-angular-spring/crud-angular/src/styles.scss
 * Angular material:https://material.angular.io/components/categories
+

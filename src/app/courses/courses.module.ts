@@ -5,6 +5,10 @@ import { CoursesRoutingModule } from './courses-routing.module';
 import { CoursesComponent } from './courses/courses.component';
 //include MatTableModule
 import {MatTableModule} from '@angular/material/table';
+//para o card
+import {MatCardModule} from '@angular/material/card';
+//para o toolbar
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 
 @NgModule({
@@ -14,7 +18,9 @@ import {MatTableModule} from '@angular/material/table';
   imports: [
     CommonModule,
     CoursesRoutingModule,
-    MatTableModule
+    MatTableModule,
+    MatCardModule,
+    MatToolbarModule
   ]
 })
 export class CoursesModule { }
