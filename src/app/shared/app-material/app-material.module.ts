@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatDialogModule } from '@angular/material/dialog';
@@ -10,17 +11,18 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatTableModule } from '@angular/material/table';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { BrowserModule } from '@angular/platform-browser';
+import { AppComponent } from 'src/app/app.component';
+
 
 
 
 
 @NgModule({
-  // declarations: [Component],
-  // schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
-  // imports: [
-  //   CommonModule,MatCardModule ],
-    
-  exports:[
+  // declarations:[AppComponent],
+  // bootstrap:[AppComponent],
+  // imports:[BrowserModule,ReactiveFormsModule,MatProgressSpinnerModule],
+  exports: [
     MatCardModule,
     MatTableModule,
     MatToolbarModule,
@@ -34,7 +36,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
     MatSelectModule,
     MatSnackBarModule
   ],
-    
   
 })
 export class AppMaterialModule { }
